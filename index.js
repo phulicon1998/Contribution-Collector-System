@@ -5,7 +5,6 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 const db = require("./model");
 
-const seed = require("./seed");
 const mw = require("./middleware");
 const hdl = require("./handler");
 
@@ -33,8 +32,6 @@ app.use((req, res, next) => {
 
 app.use(hdl.Error.handle);
 
-app.listen(process.env.PORT, async() => {
-    //load role
-    await seed();
-    console.log(`[ SERVER IS STARTED ON PORT ${process.env.PORT} ]`);
-})
+app.listen(process.env.PORT, () =>
+    console.log(`[ SERVER IS STARTED ON PORT ${process.env.PORT} ]`)
+)

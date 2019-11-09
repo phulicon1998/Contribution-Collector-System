@@ -1,3 +1,4 @@
+require("dotenv").config();
 const db = require("./model");
 
 const roles = [
@@ -46,9 +47,7 @@ async function createRole(){
             for(let role of roles){
                 await db.Role.create(role);
             }
-            return console.log("ROLE CREATED");
         }
-        return console.log("ROLE LOADED");
     } catch(err) {
         console.log(err);
     }
@@ -61,17 +60,22 @@ async function createFaculty(){
             for(let fa of faculty){
                 await db.Faculty.create(fa);
             }
-            return console.log("FACULTY CREATED");
         }
-        return console.log("FACULTY LOADED");
     } catch(err) {
         console.log(err);
     }
 }
 
 async function seed(){
+    console.log("\n##### DATA SEEDING #####");
+
+    console.log("- PROCESSING ROLE DATA...");
     await createRole();
+
+    console.log("- PROCESSING FACULTY DATA...");
     await createFaculty();
+
+    console.log("-> DONE.");
 }
 
-module.exports = seed;
+seed();

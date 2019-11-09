@@ -12,7 +12,8 @@
     "start-dev": "concurrently \"nodemon index.js\" \"cd frt && yarn start-dev\"",
     "heroku-postbuild": "cd frt && npm install && npm run build",
     "test": "mocha test/**/*.test.js --timeout 10000",
-    "test-watch": "nodemon --exec npm test"
+    "test-watch": "nodemon --exec npm test",
+    "seed": "node seed"
   },
   "keywords": [],
   "author": "",
