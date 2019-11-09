@@ -1,0 +1,14 @@
+.mgzineBg {
+
+    .full-page[data-image]:after, .full-page.has-image:after{
+        opacity: .7 !important;
+    }
+
+    .full-page{
+
+        &:before{
+            opacity: 0 !important;
+        }
+
+    }
+}

@@ -1,0 +1,92 @@
+.inputComment {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    div {
+
+        &:nth-of-type(1){
+            width: 100%;
+            display: flex;
+            margin-bottom: 10px;
+
+            img {
+                width: 80px;
+                min-width: 80px;
+                height: 80px;
+                border-radius: 5px;
+            }
+
+            textarea {
+                flex-basis: 100%;
+                padding: 10px;
+                border-radius: 3px;
+                border-color: #e3e3e3;
+                outline: none;
+                margin-left: 15px;
+            }
+        }
+
+        &:nth-of-type(2){
+            display: flex;
+            justify-content: flex-end;
+
+            > button {
+                margin-left: 8px;
+
+                &:nth-of-type(1){
+                    > i {
+                        margin-right: 5px;
+                    }
+                }
+
+            }
+        }
+
+    };
+}
+
+.hasComment {
+    display: flex;
+    align-items: flex-start;
+
+    img {
+        width: 60px;
+        min-width: 60px;
+        height: 60px;
+        border-radius: 5px;
+    }
+
+    > div {
+        flex-basis: 100%;
+        margin-left: 20px;
+
+        > p {
+            margin-bottom: 5px;
+
+            &:nth-of-type(1){
+                font-size: 12px;
+                color: #a1a1a1;
+
+                b {
+                    color: #555;
+                }
+            }
+
+            &:nth-of-type(2){
+                font-size: 14px;
+                color: #444;
+            }
+        }
+
+        > small {
+            color: #acacac;
+            cursor: pointer;
+
+            &:hover {
+                color: gray;
+                text-decoration: underline;
+            }
+        }
+    }
+}

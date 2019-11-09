@@ -1,0 +1,10 @@
+.col-desc-area {
+    display: flex;
+    flex-direction: column;
+
+    textarea {
+        padding: 10px;
+        border-radius: 3px;
+        border-color: #e3e3e3;
+    }
+}

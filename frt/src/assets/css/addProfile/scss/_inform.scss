@@ -1,0 +1,36 @@
+.logProfile-inform {
+    color: #e8e8e8;
+
+    h1 {
+        margin-top: 0px;
+    }
+
+    p {
+        margin-top: 50px;
+        line-height: 1.8 !important;
+        font-weight: 300;
+        color: #c5c5c5;
+        font-size: 16px !important;
+
+        &:nth-of-type(2){
+            margin-top: 60px;
+        }
+
+    }
+
+    div {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    button {
+        color: #cbcbcb !important;
+        border: 1px solid #b9b9b9 !important;
+        background-color: transparent !important;
+        padding: 10px 15px;
+        border-radius: 5px;
+        outline: none !important;
+    }
+}

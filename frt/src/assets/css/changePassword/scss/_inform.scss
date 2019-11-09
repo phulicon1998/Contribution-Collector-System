@@ -1,0 +1,28 @@
+.logPassword-inform {
+    color: #e8e8e8;
+
+    h1{
+        margin-top: 0px;
+        font-size: 50px;
+        line-height: 1.5;
+    }
+
+    p {
+
+        &:nth-of-type(1){
+            background-color: #226468cc;
+        }
+
+        background-color: #0000005e;
+        padding: 10px;
+        font-weight: 300 !important;
+        line-height: 1.8 !important;
+        color: #c5c5c5;
+        font-size: 15px !important;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+
+}

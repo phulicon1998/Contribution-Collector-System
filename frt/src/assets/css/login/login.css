@@ -1,0 +1,5 @@
+.mgzineBg .full-page[data-image]:after, .mgzineBg .full-page.has-image:after {
+  opacity: .7 !important; }
+
+.mgzineBg .full-page:before {
+  opacity: 0 !important; }

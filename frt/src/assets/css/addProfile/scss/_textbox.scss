@@ -1,0 +1,32 @@
+.boxViewname {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    input {
+        width: 230px;
+        border: none;
+        border-bottom: 1px solid #d0d0d06b;
+        background-color: transparent;
+        outline: none;
+        color: #d0d0d0;
+        line-height: 2.5;
+        padding-left: 15px;
+        padding-bottom: 3px;
+
+        &::placeholder {
+            color: gray;
+        }
+    }
+
+    i {
+        padding-left: 8px;
+        color: #d0d0d0;
+        font-size: 15px;
+        border-bottom: 1px solid #d0d0d06b;
+        line-height: 2.5;
+        padding-bottom: 3px;
+    }
+}

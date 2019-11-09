@@ -1,0 +1,46 @@
+$active-color: gray;
+$unactive-color: #d3d3d3; 
+
+.box {
+
+    &.active-con{
+        border: 1px solid $active-color;
+        border-radius: 4px;
+    }
+
+    &.unactive-con{
+        border: 1px solid #d3d3d3 $unactive-color;
+        border-radius: 4px;
+    }
+
+    .contain-items {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        
+        i {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-size: 50px;
+
+            &.active {
+                color: gray !important;
+            }
+
+            &.unactive {
+                color: #d3d3d3;        
+            }
+        }
+    }
+
+    hr {
+
+        &.active{
+            border-color: gray !important;
+        }
+
+        &.unactive{
+            border-color: #d3d3d3 !important;                
+        }
+    }
+}

@@ -1,0 +1,13 @@
+.dateBox {
+    padding: 10px 30px;
+
+    .dateInfo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &:nth-of-type(1){
+            margin-bottom: 15px;
+        }
+    }
+}

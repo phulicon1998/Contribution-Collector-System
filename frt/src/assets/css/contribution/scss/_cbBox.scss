@@ -1,0 +1,119 @@
+.cbBox {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-bottom: 0 !important;
+    position: relative;
+
+    > .statusSign {
+        top: 0;
+        right: 0;
+        position: absolute;
+        align-self: flex-end;
+        margin-right: 15px;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+
+        > i {
+            color: #e4935c;
+            font-size: 18px;
+            margin-left: 5px;
+            padding: 3px 0px;
+
+            &.comment {
+                color: #9E9E9E;
+            }
+
+            &.select {
+                color: #8bc34a;
+            }
+
+            &.deny {
+                color: #df7373;
+            }
+
+        }
+
+        > span {
+            background-color: #e4935c;
+            color: white;
+            font-size: 11px;
+            font-weight: bold;
+            padding: 3px 7px;
+            border-radius: 20px;
+            margin-left: 5px;
+
+            animation-name: newCon;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+        }
+    }
+
+    > a {
+        > i {
+            font-size: 55px;
+            margin-top: 12px;
+            margin-bottom: 15px;
+            color: #70b2b2;
+        }
+    }
+
+    > .label {
+        border-top: 1px solid #e9e9e9;
+        color: #a4a4a4;
+        display: flex;
+        width: 100%;
+        padding: 10px;
+        padding-left: 15px;
+        justify-content: space-between;
+        align-items: center;
+
+        div {
+            display: flex;
+            align-items: center;
+
+            p {
+                font-size: 12px;
+                margin: 0;
+            }
+
+            i {
+                font-size: 17px;
+                margin: 0;
+                margin-right: 12px;
+                color: #a4a4a4;
+            }
+        }
+
+        > i {
+            padding-left: 15px;
+            border-left: 1px solid #e9e9e9;
+            color: #87cb1696;
+            font-size: 15px;
+            margin-right: 10px;
+            cursor: pointer;
+
+            &:hover {
+                color: #87cb16e0;
+            }
+        }
+
+    }
+}
+
+@-webkit-keyframes newCon {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}

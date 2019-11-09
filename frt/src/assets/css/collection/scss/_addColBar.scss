@@ -1,0 +1,19 @@
+.add-col-bar {
+    display: flex;
+    align-items: center;
+
+    > button {
+        display: flex;
+        align-items: center;
+    }
+
+    i {
+        font-size: 18px;
+        margin-right: 10px;
+    }
+
+    > span {
+        margin-left: 10px;
+        color: gray;
+    }
+}

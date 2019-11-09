@@ -1,0 +1,22 @@
+NAMING RULES FOR THIS PROJECT
+
++ With files which are in folders:
+
+- handler: h-<filename>.js
+
+- middleware: mw-<filename>.js
+
+- model: m-<filename>.js
+
+- route: r-<filename>.js
+
+- case:
+    a. If the case is for testing middleware => mw<filename>.test.js
+    b. If the case is for testing handler => <filename>.test.js
+
+- prc:
+    a. If the case is for testing middleware => prc-mw-<filename>.js
+    b. If the case is for testing handler => prc-<filename>.js
+
+NOTE: To be convenient, name of file is the same to the name of the file for testing it
+    Ex: h-Error.js => prc-Error.js & error.test.js

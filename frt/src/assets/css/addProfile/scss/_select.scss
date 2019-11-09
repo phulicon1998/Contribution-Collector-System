@@ -1,0 +1,151 @@
+.logProfile-select {
+    color: #e8e8e8;
+
+    .imgDisplay {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        .emptyImg {
+            cursor: pointer;
+            width: 100%;
+            display: flex;
+
+            justify-content: center;
+            align-items: center;
+            border: 2px dashed gray;
+            height: 140px;
+            width: 140px;
+            border-radius: 5px;
+
+            i {
+                font-size: 50px;
+            }
+        }
+
+        .coverImg{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+
+            &:hover {
+                div {
+
+                    div {
+                        background-color: #0000008c;
+
+                        button {
+                            opacity: 1;
+                            transform: translateY(0px);
+                        }
+
+                    }
+
+                }
+            }
+
+            div {
+                position: relative;
+                background-color: transparent;
+                border-radius: 10px;
+                transition-duration: .2s;
+
+                img {
+                    width: 140px;
+                    height: 140px;
+                    border-radius: 10px;
+                }
+
+                div {
+                    position: absolute;
+                    width: 140px;
+                    height: 140px;
+                    top: 0;
+                    right: 0;
+                    left: 0;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    button {
+                        border: 1px solid #cdcdcd;
+                        color: #cdcdcd;
+                        background-color: transparent;
+                        border-radius: 20px;
+                        padding: 5px 13px;
+                        font-size: 18px;
+                        font-weight: 300;
+
+                        opacity: 0;
+                        transition-duration: .2s;
+                        transform: translateY(-50px);
+                    }
+
+                }
+            }
+        }
+    }
+
+    p {
+        font-weight: 300;
+        color: #d0d0d0;
+        margin-bottom: 40px;
+        margin-top: 20px;
+        font-weight: bold;
+    }
+
+    .imgSelect {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 30px;
+        align-items: center;
+
+        div {
+
+            &:nth-of-type(2) {
+                margin-top: 20px;
+                margin-bottom: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            &:nth-of-type(1) {
+                margin-bottom: 40px;
+
+                img {
+                    width: 70px;
+                    height: 70px;
+                    border-radius: 10px;
+                    margin-left: 5px;
+                    margin-right: 5px;
+                    transition-duration: .2s;
+                    cursor: pointer;
+
+                    &:hover{
+                        width: 80px;
+                        height: 80px;
+                    }
+
+                    &.selected {
+                        border: 3px solid #00ffff6b;
+                        width: 90px;
+                        height: 90px;
+                        box-shadow: 0 4px 5px rgba(0,0,0,.3);
+                    }
+
+                }
+            }
+
+        }
+    }
+
+
+
+    .next {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+}

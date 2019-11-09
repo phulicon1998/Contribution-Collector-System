@@ -1,0 +1,44 @@
+.uploadBox{
+
+    .border-box {
+        border: 1px solid #d5d5d582 !important;
+        border-radius: 8px !important;
+    }
+
+    .itemDisplay {
+        padding: 10px;
+
+        div {
+            .margind{
+                margin-top: 10px !important;
+            }
+            .word{
+                border: 1px solid #0c81cfb4 !important;
+                padding: 10px !important;
+                border-radius: 20px !important;                
+            }
+
+            .image {
+                width: 100px;
+                height: 80px;
+                margin: 5px;
+            }
+        }
+
+    }
+
+    .uploadButton{
+        margin-bottom: 10px;
+    }
+}
+
+.param-in{
+    margin: 60px !important;
+    color: #d5d5d5;
+    text-align: center;
+}
+
+.checkBx{
+        margin-bottom: 22px;
+        color: #0faef2;
+}

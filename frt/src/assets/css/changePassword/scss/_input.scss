@@ -1,0 +1,25 @@
+.logPassword-input {
+    margin-top: 50px;
+
+    > div:nth-of-type(1) {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 30px;
+        color: #e8e8e8;
+        align-items: center;
+        flex-direction: column;
+        text-transform: capitalize;
+
+        i {
+            font-size: 50px;
+            margin-right: 10px;
+        }
+
+        h1 {
+            font-size: 40px;
+            margin-top: 40px;
+        }
+    }
+
+}

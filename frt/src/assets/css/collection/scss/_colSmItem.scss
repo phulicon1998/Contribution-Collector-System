@@ -1,0 +1,45 @@
+.colSmItem {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+
+    > p {
+        font-size: 15px;
+        margin-bottom: 0px;
+        margin-top: 10px;
+        text-align: center;
+
+        a {
+            color: #333;
+        }
+    }
+
+    > i {
+        font-size: 45px;
+    }
+
+
+    > small {
+        margin-top: 5px;
+        color: gray;
+        font-weight: lighter;
+    }
+
+    > div{
+        margin-top: 10px;
+        padding-top: 10px;
+        width: 100%;
+        border-top: 1px solid #dbdbdb;
+
+        small {
+            display: block;
+            color: gray;
+            text-align: center;
+            font-style: italic;
+            font-size: lighter;
+        }
+    }
+
+
+}

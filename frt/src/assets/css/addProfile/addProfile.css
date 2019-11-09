@@ -1,0 +1,148 @@
+.logProfile-inform {
+  color: #e8e8e8; }
+  .logProfile-inform h1 {
+    margin-top: 0px; }
+  .logProfile-inform p {
+    margin-top: 50px;
+    line-height: 1.8 !important;
+    font-weight: 300;
+    color: #c5c5c5;
+    font-size: 16px !important; }
+    .logProfile-inform p:nth-of-type(2) {
+      margin-top: 60px; }
+  .logProfile-inform div {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 40px; }
+  .logProfile-inform button {
+    color: #cbcbcb !important;
+    border: 1px solid #b9b9b9 !important;
+    background-color: transparent !important;
+    padding: 10px 15px;
+    border-radius: 5px;
+    outline: none !important; }
+
+.logProfile-select {
+  color: #e8e8e8; }
+  .logProfile-select .imgDisplay {
+    width: 100%;
+    display: flex;
+    justify-content: center; }
+    .logProfile-select .imgDisplay .emptyImg {
+      cursor: pointer;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 2px dashed gray;
+      height: 140px;
+      width: 140px;
+      border-radius: 5px; }
+      .logProfile-select .imgDisplay .emptyImg i {
+        font-size: 50px; }
+    .logProfile-select .imgDisplay .coverImg {
+      width: 100%;
+      display: flex;
+      justify-content: center; }
+      .logProfile-select .imgDisplay .coverImg:hover div div {
+        background-color: #0000008c; }
+        .logProfile-select .imgDisplay .coverImg:hover div div button {
+          opacity: 1;
+          transform: translateY(0px); }
+      .logProfile-select .imgDisplay .coverImg div {
+        position: relative;
+        background-color: transparent;
+        border-radius: 10px;
+        transition-duration: .2s; }
+        .logProfile-select .imgDisplay .coverImg div img {
+          width: 140px;
+          height: 140px;
+          border-radius: 10px; }
+        .logProfile-select .imgDisplay .coverImg div div {
+          position: absolute;
+          width: 140px;
+          height: 140px;
+          top: 0;
+          right: 0;
+          left: 0;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          .logProfile-select .imgDisplay .coverImg div div button {
+            border: 1px solid #cdcdcd;
+            color: #cdcdcd;
+            background-color: transparent;
+            border-radius: 20px;
+            padding: 5px 13px;
+            font-size: 18px;
+            font-weight: 300;
+            opacity: 0;
+            transition-duration: .2s;
+            transform: translateY(-50px); }
+  .logProfile-select p {
+    font-weight: 300;
+    color: #d0d0d0;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    font-weight: bold; }
+  .logProfile-select .imgSelect {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center; }
+    .logProfile-select .imgSelect div:nth-of-type(2) {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    .logProfile-select .imgSelect div:nth-of-type(1) {
+      margin-bottom: 40px; }
+      .logProfile-select .imgSelect div:nth-of-type(1) img {
+        width: 70px;
+        height: 70px;
+        border-radius: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+        transition-duration: .2s;
+        cursor: pointer; }
+        .logProfile-select .imgSelect div:nth-of-type(1) img:hover {
+          width: 80px;
+          height: 80px; }
+        .logProfile-select .imgSelect div:nth-of-type(1) img.selected {
+          border: 3px solid #00ffff6b;
+          width: 90px;
+          height: 90px;
+          box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3); }
+  .logProfile-select .next {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center; }
+
+.boxViewname {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .boxViewname input {
+    width: 230px;
+    border: none;
+    border-bottom: 1px solid #d0d0d06b;
+    background-color: transparent;
+    outline: none;
+    color: #d0d0d0;
+    line-height: 2.5;
+    padding-left: 15px;
+    padding-bottom: 3px; }
+    .boxViewname input::placeholder {
+      color: gray; }
+  .boxViewname i {
+    padding-left: 8px;
+    color: #d0d0d0;
+    font-size: 15px;
+    border-bottom: 1px solid #d0d0d06b;
+    line-height: 2.5;
+    padding-bottom: 3px; }

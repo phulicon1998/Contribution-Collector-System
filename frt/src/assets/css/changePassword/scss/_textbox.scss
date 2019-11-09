@@ -1,0 +1,34 @@
+.boxPassword {
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+    div {
+        border-radius: 10px;
+        padding: 12px;
+        background-color: #00000080;
+        width: 48%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        input {
+            margin-left: 20px;
+            background-color: transparent;
+            border: none;
+            flex-basis: 100%;
+            color: #e8e8e8;
+
+            &::placeholder {
+                color: #979797;
+                font-weight: lighter;
+            }
+        }
+
+        i {
+            color: #cacaca;
+            margin-left: 10px;
+        }
+    }
+}

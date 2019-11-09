@@ -1,0 +1,71 @@
+.boxUpload {
+    margin-top: 20px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(221, 221, 221, 1) !important;
+
+    .cbImg {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        padding-bottom: 0 !important;
+        padding-top: 0 !important;
+        background-color: #c7cdd0b0;
+        overflow: hidden;
+
+
+        > img {
+            max-height: 120px;
+            width: auto;
+            max-width: 230px;
+        }
+
+        > div {
+            border-top: 1px solid #e9e9e9;
+            color: #a4a4a4;
+            display: flex;
+            width: 100%;
+            padding: 10px;
+            padding-left: 15px;
+            justify-content: space-between;
+            align-items: center;
+            background-color: white;
+            border-bottom-right-radius: 3px;
+            border-bottom-left-radius: 3px;
+
+            div {
+                display: flex;
+                align-items: center;
+
+                p {
+                    font-size: 12px;
+                    margin: 0;
+                    color: gray;
+                }
+
+                i {
+                    font-size: 17px;
+                    margin: 0;
+                    margin-right: 12px;
+                    color: gray;
+                }
+            }
+
+            > i {
+                padding-left: 15px;
+                border-left: 1px solid #e9e9e9;
+                color: #87cb1696;
+                font-size: 15px;
+                margin-right: 10px;
+                cursor: pointer;
+
+                &:hover {
+                    color: #87cb16e0;
+                }
+            }
+
+        }
+    }
+}

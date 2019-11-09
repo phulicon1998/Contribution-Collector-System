@@ -1,0 +1,64 @@
+.boxImg {
+  display: flex;
+  justify-content: center; }
+  .boxImg img {
+    width: 90px;
+    height: 90px;
+    border-radius: 10px; }
+
+.updateForm .update {
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+  .updateForm .update button {
+    margin-bottom: 10px; }
+
+.updateForm .editImg {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 20px; }
+  .updateForm .editImg div {
+    position: relative; }
+    .updateForm .editImg div img {
+      width: 162px;
+      height: 150px;
+      border-radius: 10px;
+      box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3); }
+    .updateForm .editImg div div {
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+      background-color: #000000a1;
+      font-size: 14px;
+      text-align: center;
+      padding-bottom: 7px;
+      padding-top: 7px;
+      border-bottom-right-radius: 8px;
+      border-bottom-left-radius: 8px;
+      cursor: pointer; }
+      .updateForm .editImg div div p {
+        font-weight: lighter;
+        font-size: 12px;
+        margin: 0;
+        color: #ececec; }
+
+.desc-area {
+  display: flex;
+  flex-direction: column; }
+  .desc-area textarea {
+    padding: 10px;
+    border-radius: 3px;
+    border-color: #cccccc; }
+
+.add-fa {
+  margin-left: 5px;
+  margin-bottom: 10px !important;
+  display: flex !important;
+  align-items: center;
+  padding: 8px 10px !important; }
+  .add-fa i {
+    font-size: 20px;
+    margin-right: 10px; }
+  .add-fa span {
+    font-size: 14px; }
