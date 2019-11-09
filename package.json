@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "engines": {
-    "node": "8.11.2",
+    "node": "10.15.0",
     "npm": "6.10.1"
   },
   "main": "index.js",
