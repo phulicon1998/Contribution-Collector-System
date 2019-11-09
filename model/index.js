@@ -1,7 +1,10 @@
 const mongoose = require("mongoose");
 mongoose.set('useCreateIndex', true);
 mongoose.set('useFindAndModify', false);
-mongoose.connect(process.env.DB_URL, {useNewUrlParser: true});
+mongoose.connect(process.env.DB_URL, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true
+});
 mongoose.Promise = Promise;
 
 // REQUIRE THE OTHER MODELS HERE

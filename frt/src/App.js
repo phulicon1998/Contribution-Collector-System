@@ -6,7 +6,7 @@ import {checkStore} from "./services/clientStore";
 import Page from "./Page";
 
 const store = configureStore();
-checkStore(store);
+// checkStore(store);
 
 const App = () => (
     <Provider store={store}>

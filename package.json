@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "engines": {
-    "node": "10.15.0",
+    "node": "8.11.2",
     "npm": "6.10.1"
   },
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "start-dev": "concurrently \"nodemon index.js\" \"cd frt && npm run start-dev\"",
+    "start-dev": "concurrently \"nodemon index.js\" \"cd frt && yarn start-dev\"",
     "heroku-postbuild": "cd frt && npm install && npm run build",
     "test": "mocha test/**/*.test.js --timeout 10000",
     "test-watch": "nodemon --exec npm test"
@@ -25,7 +25,7 @@
     "dotenv": "^7.0.0",
     "express": "^4.16.4",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.5.2",
+    "mongoose": "^5.7.9",
     "multer": "^1.4.1",
     "nodemailer": "^6.1.1"
   },
